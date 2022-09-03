@@ -1,4 +1,4 @@
-import { Box, Center, Divider, Flex, Image, Stack, Text } from '@chakra-ui/react'
+import { Box, Center, Divider, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
@@ -9,8 +9,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
-import styles from './swiper.module.css'
 
 const Home: NextPage = () => {
 
@@ -39,19 +37,22 @@ const Home: NextPage = () => {
 
           {/* <Image src='europe.png' alt='Banner da Europa' />  */}
 
-          <Center>
+          <Center position={'relative'}>
             <Box maxW={'1240px'} margin={'0 auto'}>
               <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
               >
-                <SwiperSlide className={styles.swiper_slide}>
-                  <Image src="europe.png" zIndex={-1}/>
-                  <h2>ssssssssssss</h2>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="europe.png" />
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>Europa</Heading>
+                    <Text fontSize={'2rem'}>O continente mais antigo.</Text>
+                  </Box>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image src="europe.png" />
