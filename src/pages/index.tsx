@@ -51,19 +51,60 @@ const Home: NextPage = () => {
                   </Box>
                   <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
                     <Heading as={'h2'} fontSize={'5xl'}>Europa</Heading>
-                    <Text fontSize={'2rem'}>O continente mais antigo.</Text>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>O continente mais antigo.</Text>
+                  </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="northAmerica.jpg" />
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>América do Norte</Heading>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>Berço das potencias mundiais.</Text>
+                  </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="southAmerica.jpg" />
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>América do Sul</Heading>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>Possui a maior floresta tropical do mundo.</Text>
+                  </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="asia.jpg" />
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>Ásia</Heading>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>Maior continente de todos.</Text>
+                  </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="africa.jpg"/>
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>África</Heading>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>Detentor do maior deserto do mundo.</Text>
+                  </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <Box position={'absolute'}>
+                    <Image src="oceania.jpg"/>
+                  </Box>
+                  <Box position={'absolute'} zIndex={'1'} minHeight={'450px'} w={'100%'} color={'#DADADA'} display={'flex'} alignItems={'center'} flexDirection={'column'} justifyContent={'center'}>
+                    <Heading as={'h2'} fontSize={'5xl'}>Oceania</Heading>
+                    <Text fontSize={'2rem'} fontWeight={'bold'}>Lar dos animais exóticos.</Text>
                   </Box>
                 </SwiperSlide>
                 <SwiperSlide>
                   <Image src="europe.png" />
                 </SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
               </Swiper>
             </Box>
           </Center>
-
-
         </Stack>
       </main>
     </>
