@@ -9,7 +9,7 @@ export default function () {
         <title>Worldtrip | Europe</title>
       </Head>
       <main>
-        <Image src="bannerEurope.png" />
+        <Image src="europe/bannerEurope.png" />
         <VStack spacing={'20'} mt={'20'} fontFamily={'Poppins'}>
           <Box display={'flex'} justifyContent={'space-between'}>
             <Text w={'50%'} fontSize={'2rem'} textAlign={'justify'}>
@@ -51,57 +51,57 @@ export default function () {
 
             <Box display={'flex'} alignItems={'center'} gap={'2rem'} flexWrap={'wrap'} >
               <Box w={'fit-content'}>
-                <Image src="londres.png" />
+                <Image src="europe/londres.png" />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
                   <Box p={'2rem 0'} fontFamily={'Barlow, sans-serif'}>
                     <Text fontWeight={'semibold'} fontSize={'1.25rem'} color={'#47585B'}>Londres</Text>
                     <Text mt={'1rem'} fontWeight={'medium'} color={'#999999'}>Reino Unido</Text>
                   </Box>
-                  <Image src="unitedKingdom.png" w={'30px'} h={'30px'} />
+                  <Image src="europe/unitedKingdom.png" w={'30px'} h={'30px'} />
                 </Box>
               </Box>
 
               <Box w={'fit-content'}>
-                <Image src="paris.png" />
+                <Image src="europe/paris.png" />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
                   <Box p={'2rem 0'} fontFamily={'Barlow, sans-serif'}>
                     <Text fontWeight={'semibold'} fontSize={'1.25rem'} color={'#47585B'}>Paris</Text>
                     <Text mt={'1rem'} fontWeight={'medium'} color={'#999999'}>França</Text>
                   </Box>
-                  <Image src="france.png" w={'30px'} h={'30px'} />
+                  <Image src="europe/france.png" w={'30px'} h={'30px'} />
                 </Box>
               </Box>
 
               <Box w={'fit-content'}>
-                <Image src="rome.png" />
+                <Image src="europe/rome.png" />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
                   <Box p={'2rem 0'} fontFamily={'Barlow, sans-serif'}>
                     <Text fontWeight={'semibold'} fontSize={'1.25rem'} color={'#47585B'}>Roma</Text>
                     <Text mt={'1rem'} fontWeight={'medium'} color={'#999999'}>Itália</Text>
                   </Box>
-                  <Image src="italy.png" w={'30px'} h={'30px'} />
+                  <Image src="europe/italy.png" w={'30px'} h={'30px'} />
                 </Box>
               </Box>
 
               <Box w={'fit-content'}>
-                <Image src="prague.png" />
+                <Image src="europe/prague.png" />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
                   <Box p={'2rem 0'} fontFamily={'Barlow, sans-serif'}>
                     <Text fontWeight={'semibold'} fontSize={'1.25rem'} color={'#47585B'}>Praga</Text>
                     <Text mt={'1rem'} fontWeight={'medium'} color={'#999999'}>República Tcheca</Text>
                   </Box>
-                  <Image src="czechRepublic.png" w={'30px'} h={'30px'} />
+                  <Image src="europe/czechRepublic.png" w={'30px'} h={'30px'} />
                 </Box>
               </Box>
 
               <Box w={'fit-content'}>
-                <Image src="amsterdam.png" />
+                <Image src="europe/amsterdam.png" />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
                   <Box p={'2rem 0'} fontFamily={'Barlow, sans-serif'}>
                     <Text fontWeight={'semibold'} fontSize={'1.25rem'} color={'#47585B'}>Amsterdã</Text>
                     <Text mt={'1rem'} fontWeight={'medium'} color={'#999999'}>Holanda</Text>
                   </Box>
-                  <Image src="holland.png" w={'30px'} h={'30px'} />
+                  <Image src="europe/holland.png" w={'30px'} h={'30px'} />
                 </Box>
               </Box>
 
