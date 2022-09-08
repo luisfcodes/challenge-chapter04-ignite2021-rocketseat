@@ -9,35 +9,35 @@ export default function () {
         <title>Worldtrip | South America</title>
       </Head>
       <main>
-        <Image src="southAmerica/bannerSouthAmerica.jpg" maxH={'500'} w={'100%'} objectFit={'cover'} />
-        <VStack spacing={'20'} mt={'20'} fontFamily={'Poppins'}>
-          <Box display={'flex'} justifyContent={'space-between'}>
-            <Text w={'50%'} fontSize={'2rem'} textAlign={'justify'}>
+        <Image src="southAmerica/bannerSouthAmerica.jpg" maxH={'500'} w={'100%'} objectFit={'cover'} minW={{ base: '100vw', lg: 'auto' }}/>
+        <VStack spacing={{ base: '8', lg: '20' }} mt={{ base: '8', lg: '20' }} fontFamily={'Poppins'}>
+          <Box display={'flex'} justifyContent={'space-between'} flexDirection={{ base: 'column', lg: 'row' }}>
+            <Text w={{ base: '100%', lg: '50%' }} p={{ base: '0 1rem', lg: '0' }} fontSize={{ base: 'sm', lg: '2rem' }} textAlign={'justify'}>
             Atravessado pela Linha do Equador e pelo Trópico de Capricórnio, o continente possui a segunda maior cordilheira do mundo na Região Andina que se estende desde a Venezuela até o Chile e a Argentina.
             </Text>
-            <Box display={'flex'} w={'50%'} justifyContent={'space-between'} alignItems={'center'} p={'0 5rem'}>
+            <Box display={'flex'} w={{ base: '100%', lg: '50%' }} justifyContent={'space-between'} alignItems={'center'} p={{ base: '0 1rem', lg: '0 5rem' }}>
               <Box display={'flex'} flexDirection={'column'} alignItems={'center'} >
-                <Text fontSize={'3rem'} color={'#FFBA08'} fontWeight={'semibold'}>
+                <Text fontSize={{ base: '2rem', lg: '3rem' }} color={'#FFBA08'} fontWeight={'semibold'} alignSelf={{ base: 'flex-start', lg: 'center' }}>
                   12
                 </Text>
-                <Text fontSize={'2rem'} color={'#47585B'} fontWeight={'semibold'}>
+                <Text fontSize={{ base: 'lg', lg: '2rem' }} color={'#47585B'} fontWeight={'semibold'}>
                   países
                 </Text>
               </Box>
               <Box display={'flex'} flexDirection={'column'} alignItems={'center'} >
-                <Text fontSize={'3rem'} color={'#FFBA08'} fontWeight={'semibold'}>
+                <Text fontSize={{ base: '2rem', lg: '3rem' }} color={'#FFBA08'} fontWeight={'semibold'} alignSelf={{ base: 'flex-start', lg: 'center' }}>
                   456
                 </Text>
-                <Text fontSize={'2rem'} color={'#47585B'} fontWeight={'semibold'}>
+                <Text fontSize={{ base: 'lg', lg: '2rem' }} color={'#47585B'} fontWeight={'semibold'}>
                   línguas
                 </Text>
               </Box>
               <Box display={'flex'} flexDirection={'column'} alignItems={'center'} >
-                <Text fontSize={'3rem'} color={'#FFBA08'} fontWeight={'semibold'}>
+                <Text fontSize={{ base: '2rem', lg: '3rem' }} color={'#FFBA08'} fontWeight={'semibold'} alignSelf={{ base: 'flex-start', lg: 'center' }}>
                   36
                 </Text>
                 <Box display={'flex'} alignItems={'center'} gap={'0.5rem'}>
-                  <Text fontSize={'2rem'} color={'#47585B'} fontWeight={'semibold'}>
+                  <Text fontSize={{ base: 'lg', lg: '2rem' }} color={'#47585B'} fontWeight={'semibold'}>
                     cidades + 100
                   </Text>
                   <WarningIcon color={'#999999'} />
@@ -47,9 +47,9 @@ export default function () {
           </Box>
 
           <Box w={'full'} display={'flex'} flexDirection={'column'} gap={'2rem'}>
-            <Heading as={'h2'} fontFamily={'Poppins, sans-serif'} fontSize={'2.25rem'} fontWeight={'medium'} color={'#47585B'}>Cidades +100</Heading>
+            <Heading as={'h2'} fontFamily={'Poppins, sans-serif'} fontSize={{ base: '2rem', lg: '2.25rem' }} fontWeight={'medium'} color={'#47585B'} p={{ base: '0 1rem', lg: '0' }}>Cidades +100</Heading>
 
-            <Box display={'flex'} alignItems={'center'} gap={'2rem'} flexWrap={'wrap'} >
+            <Box display={'flex'} alignItems={'center'} gap={'2rem'} flexWrap={'wrap'} flexDirection={{ base: 'column', lg: 'row' }} >
               <Box w={'fit-content'}>
                 <Image src="southAmerica/saoPaulo.jpg" maxW={'256'} maxH={'173'} borderRadius={'4px 4px 0 0'} />
                 <Box display={'flex'} justifyContent={'space-between'} alignItems={'center'} p={'0 1rem'} border={'1px solid rgba(255,186,8,0.5)'} borderTop={'none'} borderRadius={'4px'}>
