@@ -2,7 +2,7 @@ import { Box, Heading, Image, Text, VStack } from "@chakra-ui/react";
 import { WarningIcon } from '@chakra-ui/icons'
 import Head from "next/head";
 
-export default function(){
+export default function Asia(){
     return (
         <>
       <Head>
